@@ -19,7 +19,7 @@ public class HelloController {
         return "Good Bye!";
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = "/ohayo")  // この書き方も正しいですが、より読みにくいです
+    @RequestMapping(method = RequestMethod.GET, path = "/ohayo")  // この書き方も正しいですが、より読みにくい
     public String ohayo() {
         return "Ohayo!";
     }
